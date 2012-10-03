@@ -5,7 +5,7 @@ float x, y;
 PFont ourFont;
 
 int partCount=1;
-int tsize=50;
+int tsize=40;
 int Score = 0;
 String ScoreText;
 PImage guide;
@@ -220,7 +220,7 @@ void part13() {
   background(250);
   fill(0);
   textSize(tsize);
-  text("WRONG ANSWER", 200, 300);
+  text("WRONG ANSWER", 150, 300);
   image(finish, 0, 0, width, height);
   arduino.pinMode(4, Arduino.OUTPUT);
    arduino.digitalWrite(4, Arduino.HIGH);
@@ -236,7 +236,7 @@ void part13() {
   background(250);
   fill(0);
   textSize(tsize);
-  text("CORRECT ANSWER", 200, 300);
+  text("CORRECT ANSWER",150, 300);
   image(finish, 0, 0, width, height);
   arduino.pinMode(5, Arduino.OUTPUT);
    arduino.digitalWrite(5, Arduino.HIGH);
@@ -322,7 +322,7 @@ void part14() {
   background(250);
   fill(0);
   textSize(tsize);
-  text("WRONG ANSWER", 200, 300);
+  text("WRONG ANSWER", 150, 300);
   image(finish, 0, 0, width, height);
   arduino.pinMode(4, Arduino.OUTPUT);
    arduino.digitalWrite(4, Arduino.HIGH);
@@ -338,7 +338,7 @@ void part14() {
   background(250);
   fill(0);
   textSize(tsize);
-  text("CORRECT ANSWER", 200, 300);
+  text("CORRECT ANSWER", 150, 300);
   image(finish, 0, 0, width, height);
   arduino.pinMode(5, Arduino.OUTPUT);
    arduino.digitalWrite(5, Arduino.HIGH);
@@ -423,7 +423,7 @@ void part15() {
   background(250);
   fill(0);
   textSize(tsize);
-  text("WRONG ANSWER", 200, 300);
+  text("WRONG ANSWER", 150, 300);
   image(finish, 0, 0, width, height);
    arduino.pinMode(4, Arduino.OUTPUT);
    arduino.digitalWrite(4, Arduino.HIGH);
@@ -439,7 +439,7 @@ void part15() {
   background(250);
   fill(0);
   textSize(tsize);
-  text("CORRECT ANSWER", 200, 300);
+  text("CORRECT ANSWER",150, 300);
   image(finish, 0, 0, width, height);
   arduino.pinMode(5, Arduino.OUTPUT);
    arduino.digitalWrite(5, Arduino.HIGH);
@@ -523,7 +523,7 @@ void part21() {
   background(250);
   fill(0);
   textSize(tsize);
-  text("WRONG ANSWER", 200, 300);
+  text("WRONG ANSWER", 150, 300);
   image(finish, 0, 0, width, height);
   arduino.pinMode(4, Arduino.OUTPUT);
    arduino.digitalWrite(4, Arduino.HIGH);
@@ -539,7 +539,7 @@ void part21() {
   background(250);
   fill(0);
   textSize(tsize);
-  text("CORRECT ANSWER", 200, 300);
+  text("CORRECT ANSWER", 150, 300);
   image(finish, 0, 0, width, height);
    arduino.pinMode(5, Arduino.OUTPUT);
    arduino.digitalWrite(5, Arduino.HIGH);
@@ -622,7 +622,7 @@ void part25() {
   background(250);
   fill(0);
   textSize(tsize);
-  text("WRONG ANSWER", 200, 300);
+  text("WRONG ANSWER", 150, 300);
   image(finish, 0, 0, width, height);
    arduino.pinMode(4, Arduino.OUTPUT);
    arduino.digitalWrite(4, Arduino.HIGH);
@@ -638,7 +638,7 @@ void part25() {
   background(250);
   fill(0);
   textSize(tsize);
-  text("CORRECT ANSWER", 200, 300);
+  text("CORRECT ANSWER", 150, 300);
   image(finish, 0, 0, width, height);
   arduino.pinMode(5, Arduino.OUTPUT);
    arduino.digitalWrite(5, Arduino.HIGH);
@@ -721,7 +721,7 @@ void part30() {
   background(250);
   fill(0);
   textSize(tsize);
-  text("WRONG ANSWER", 200, 300);
+  text("WRONG ANSWER", 150, 300);
   image(finish, 0, 0, width, height);
   arduino.pinMode(4, Arduino.OUTPUT);
    arduino.digitalWrite(4, Arduino.HIGH);
@@ -737,7 +737,7 @@ void part30() {
   background(250);
   fill(0);
   textSize(tsize);
-  text("CORRECT ANSWER", 200, 300);
+  text("CORRECT ANSWER", 150, 300);
   image(finish, 0, 0, width, height);
    arduino.pinMode(5, Arduino.OUTPUT);
    arduino.digitalWrite(5, Arduino.HIGH);
